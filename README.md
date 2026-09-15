@@ -28,13 +28,13 @@ Our method combines latent-intent prediction with higher-order reasoning to coor
 
 A reinforcement-learning baseline based on Proximal Policy Optimization (PPO) is unable to successfully coordinate the pursuers and capture the evader in this scenario.
 
-<img width="750" height="750" alt="Three-robot pursuit-evasion scenario using PPO baseline" src="https://github.com/user-attachments/assets/b9e92006-ae39-4c65-a155-c962ff381749" />
+<img width="800" height="750" alt="Three-robot pursuit-evasion scenario using PPO baseline" src="https://github.com/user-attachments/assets/b9e92006-ae39-4c65-a155-c962ff381749" />
 
 **Voronoi Baseline**
 
 The geometric Voronoi baseline is also unable to capture the evader in this scenario.
 
-<img width="750" height="750" alt="Three-robot pursuit-evasion scenario using Voronoi baseline" src="https://github.com/user-attachments/assets/551e9dbd-63df-4a96-9a47-0403bb246ff1" />
+<img width="800" height="750" alt="Three-robot pursuit-evasion scenario using Voronoi baseline" src="https://github.com/user-attachments/assets/551e9dbd-63df-4a96-9a47-0403bb246ff1" />
 
 ---
 
@@ -50,7 +50,7 @@ The robots continuously adapt their roles based on the inferred evader objective
 
 **Voronoi Baseline**
 
-<img width="750" height="750" alt="Four-robot pursuit-evasion scenario using Voronoi baseline" src="https://github.com/user-attachments/assets/426db504-aff5-470e-8bc8-6ca3287666bb" />
+<img width="800" height="800" alt="Four-robot pursuit-evasion scenario using Voronoi baseline" src="https://github.com/user-attachments/assets/426db504-aff5-470e-8bc8-6ca3287666bb" />
 
 **PPO Baseline**
 
