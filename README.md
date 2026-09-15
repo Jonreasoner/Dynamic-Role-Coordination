@@ -11,16 +11,17 @@ EXAMPLE SIMULATIONS
 PURSUIT-EVASION GAMES FOR BASELINE COMPARISON
 
 3 ROBOT SCENARIO:
-In a simple pursuit-evasion scenario, our approach outperforms baseline reinforcement and geometric based methods by using our approach's combination of latent intent prediction and higher-order reasoning. Robots adapt their role positions as evader motion increases the team's confidence regarding which target it is attempting to reach.
+
+3 ROBOT SCENARIO - Our approach. In a simple pursuit-evasion scenario, our approach outperforms baseline reinforcement and geometric based methods by using our approach's combination of latent intent prediction and higher-order reasoning. Robots adapt their role positions as evader motion increases the team's confidence regarding which target it is attempting to reach.
 
 <img width="850" height="850" alt="website_3_robot_ours" src="https://github.com/user-attachments/assets/9fbf31b6-6956-422c-8aa4-2bbd548f5907" />
 
 
-Baseline reinforcement learning method, using a proximal policy optimization (PPO) is unable to capture the evading robot.
+3 ROBOT SCENARIO - Baseline reinforcement learning method, using a proximal policy optimization (PPO) is unable to capture the evading robot.
 
 <img width="750" height="650" alt="website_3_robot_ppo" src="https://github.com/user-attachments/assets/b9e92006-ae39-4c65-a155-c962ff381749" />
 
-Baseline geometric method (Voronoi) is unable to capture the evading robot.
+3 ROBOT SCENARIO - Baseline geometric method (Voronoi) is unable to capture the evading robot.
 
 <img width="750" height="650" alt="website_3_robot_voronoi" src="https://github.com/user-attachments/assets/551e9dbd-63df-4a96-9a47-0403bb246ff1" />
 
@@ -28,15 +29,15 @@ Baseline geometric method (Voronoi) is unable to capture the evading robot.
 
 Results show that our approach improves performance in teams of all sizes, with one representative case shown here.
 
-Our approach
+4 ROBOT SCENARIO - Our approach
 
 <img width="850" height="850" alt="website_4_robot_ours" src="https://github.com/user-attachments/assets/f8917797-75c4-4b75-aa98-ad37fe98ec53" />
 
-Voronoi baseline
+4 ROBOT SCENARIO - Voronoi baseline
 
 <img width="750" height="650" alt="website_4_robot_voronoi" src="https://github.com/user-attachments/assets/426db504-aff5-470e-8bc8-6ca3287666bb" />
 
-PPO baseline
+4 ROBOT SCENARIO - PPO baseline
 
 <img width="750" height="650" alt="website_4_robot_ppo" src="https://github.com/user-attachments/assets/8998a029-7e8b-48fb-8fe1-cb67fa672292" />
 
