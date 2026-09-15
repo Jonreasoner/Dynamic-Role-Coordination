@@ -1,3 +1,4 @@
+
 # Anonymous ICRA Submission Website
 
 This repository hosts an anonymous project website for an IEEE ICRA submission.
@@ -22,5 +23,4 @@ test
 test
 
 
-https://github.com/user-attachments/assets/d702fd69-3af3-4caa-a611-5fb575f7c6d7
-
+<img width="850" height="850" alt="Adobe Express - Example Broken Robot" src="https://github.com/user-attachments/assets/aaf07f58-a155-493d-9134-36895c3e9534" />
