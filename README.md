@@ -46,7 +46,7 @@ The proposed framework extends naturally to larger teams. The following examples
 
 The robots continuously adapt their roles based on the inferred evader objective and the observed behavior of their teammates.
 
-<img width="750" height="750" alt="Four-robot pursuit-evasion scenario using our approach" src="https://github.com/user-attachments/assets/f8917797-75c4-4b75-aa98-ad37fe98ec53" />
+<img width="850" height="850" alt="Four-robot pursuit-evasion scenario using our approach" src="https://github.com/user-attachments/assets/f8917797-75c4-4b75-aa98-ad37fe98ec53" />
 
 **Voronoi Baseline**
 
@@ -54,7 +54,7 @@ The robots continuously adapt their roles based on the inferred evader objective
 
 **PPO Baseline**
 
-<img width="750" height="750" alt="website_4_robot_ppo" src="https://github.com/user-attachments/assets/8c39693e-db03-4ccf-a1d7-024c5d1bd68a" />
+<img width="850" height="850" alt="website_4_robot_ppo" src="https://github.com/user-attachments/assets/85164717-55ef-4237-aa7d-00099745fef6" />
 
 ---
 
