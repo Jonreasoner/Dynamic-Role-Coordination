@@ -9,18 +9,35 @@ EXAMPLE SIMULATIONS
 
 PURSUIT-EVASION GAMES FOR BASELINE COMPARISON
 
+3 ROBOT SCENARIO:
 In a simple pursuit-evasion scenario, our approach outperforms baseline reinforcement and geometric based methods by using our approach's combination of latent intent prediction and higher-order reasoning. Robots adapt their role positions as evader motion increases the team's confidence regarding which target it is attempting to reach.
 
 <img width="850" height="850" alt="website_3_robot_ours" src="https://github.com/user-attachments/assets/9fbf31b6-6956-422c-8aa4-2bbd548f5907" />
 
 
-Baseline reinforcement learning method, using a proximal policy optimization is unable to capture the evading robot.
+Baseline reinforcement learning method, using a proximal policy optimization (PPO) is unable to capture the evading robot.
 
 <img width="750" height="650" alt="website_3_robot_ppo" src="https://github.com/user-attachments/assets/b9e92006-ae39-4c65-a155-c962ff381749" />
 
-Baseline geometric method is unable to capture the evading robot.
+Baseline geometric method (Voronoi) is unable to capture the evading robot.
 
 <img width="750" height="650" alt="website_3_robot_voronoi" src="https://github.com/user-attachments/assets/551e9dbd-63df-4a96-9a47-0403bb246ff1" />
+
+4 ROBOT SCENARIO:
+
+Results show that our approach improves performance in teams of all sizes, with one representative case shown here.
+
+Our approach
+
+<img width="850" height="850" alt="website_4_robot_ours" src="https://github.com/user-attachments/assets/f8917797-75c4-4b75-aa98-ad37fe98ec53" />
+
+Voronoi baseline
+
+<img width="750" height="650" alt="website_4_robot_voronoi" src="https://github.com/user-attachments/assets/426db504-aff5-470e-8bc8-6ca3287666bb" />
+
+PPO baseline
+
+<img width="750" height="650" alt="website_4_robot_ppo" src="https://github.com/user-attachments/assets/8998a029-7e8b-48fb-8fe1-cb67fa672292" />
 
 
 
@@ -28,6 +45,14 @@ PURSUIT-EVASION WITH AUXILIARY TASKS AND HARDWARE FAILURES
 
 
 In addition to simple pursuit-evasion games, our approach is designed to handle more complex scenarios, such as pursuit-evasion games with additional auxiliary tasks in the environment that should be completed by the team of robots. In these scenarios, the robots much coordinate which role they will take to ensure that capture of the evader is performed and any auxiliary tasks are completed, all without communication. 
+
+In this case, the team reconfigures their roles online as their prediction of the evader's target shifts, leaving r1 to complete the auxiliary task
+
+<img width="850" height="850" alt="website_adaptive" src="https://github.com/user-attachments/assets/7434ceb8-6cba-4604-a180-b49a1f599eea" />
+
+
+
+
 
 "Broken Robot" scenario. In this case, r2 suffers a hardware failure during the mission. Without communication, the team detects that r2 has deviated from expected behavior and reconfigures the team roles to ensure capture of the evader.
 
