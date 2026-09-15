@@ -54,7 +54,7 @@ The robots continuously adapt their roles based on the inferred evader objective
 
 **PPO Baseline**
 
-<img width="750" height="750" alt="Four-robot pursuit-evasion scenario using PPO baseline" src="https://github.com/user-attachments/assets/8998a029-7e8b-48fb-8fe1-cb67fa672292" />
+<img width="750" height="750" alt="website_4_robot_ppo" src="https://github.com/user-attachments/assets/8c39693e-db03-4ccf-a1d7-024c5d1bd68a" />
 
 ---
 
